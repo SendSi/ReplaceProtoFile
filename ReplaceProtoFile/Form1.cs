@@ -16,9 +16,12 @@ namespace ReplaceProtoFile
             InitializeComponent();
             mSaveTxtPath = Path.Combine(Application.StartupPath, "zProtoReplace.txt");
         }
+
+        string txtOriOutPath = @"D:\WorkProject\UnityClient\Proto\out\cs";
+
         void SaveTxtPath()
         {
-            string contentTxt = this.txtServerPath.Text + "*" + this.txtProtoPath.Text + "*" + this.txtUnityProtoPath.Text + "*" + this.txtOriOutPath.Text;
+            string contentTxt = this.txtServerPath.Text + "*" + this.txtProtoPath.Text + "*" + this.txtUnityProtoPath.Text;
             File.WriteAllText(mSaveTxtPath, contentTxt);
         }
 
@@ -32,7 +35,6 @@ namespace ReplaceProtoFile
                 this.txtServerPath.Text = strs[0];
                 this.txtProtoPath.Text = strs[1];
                 this.txtUnityProtoPath.Text = strs[2];
-                this.txtOriOutPath.Text = strs[3];
             }
         }
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
@@ -132,7 +134,7 @@ namespace ReplaceProtoFile
         private void btnUnityReplaceFile_Click(object sender, EventArgs e)
         {
             var pathOld = txtUnityProtoPath.Text; //@"D:\WorkProject\UnityClient\Unity\Assets\Hotfix\CodeGen\Proto";
-            var pathNew = txtOriOutPath.Text; //@"D:\WorkProject\UnityClient\Proto\out\cs";
+            var pathNew = this.txtProtoPath.Text.Replace(@"\protofiles\protofile\client", @"\out\cs"); //@"D:\WorkProject\UnityClient\Proto\out\cs";
 
             var fileNames = new List<string>() { "GamePlayerInfo.cs", "GameBattle.cs", "common.cs", "GamePacketIDs.cs", "GameSystem.cs", "HallPacketIDs.cs", "HallAccount.cs", "GameLogin.cs" };
 
@@ -342,7 +344,7 @@ namespace ReplaceProtoFile
             lblExcInfo.Text = "等待 3";
 
             // 设置源目录
-            string directory = txtOriOutPath.Text.Replace(@"\out\cs",""); // @"D:\WorkProject\UnityClient\Proto";
+            string directory = this.txtProtoPath.Text.Replace(@"\protofiles\protofile\client", ""); // @"D:\WorkProject\UnityClient\Proto";
             string pbToolPath = System.IO.Path.Combine(directory, "PbTool", "pbtool.exe");
 
             // 创建一个新的进程启动信息
@@ -381,7 +383,7 @@ namespace ReplaceProtoFile
                 MessageBox.Show(ex.Message, "错误");
             }
         }
-       
-      
+
+
     }
 }
