@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceProtoFile", "ReplaceProtoFile\ReplaceProtoFile.csproj", "{BE9F07A6-CB4B-4E71-B22E-17C86473E3AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE9F07A6-CB4B-4E71-B22E-17C86473E3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9F07A6-CB4B-4E71-B22E-17C86473E3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9F07A6-CB4B-4E71-B22E-17C86473E3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9F07A6-CB4B-4E71-B22E-17C86473E3AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

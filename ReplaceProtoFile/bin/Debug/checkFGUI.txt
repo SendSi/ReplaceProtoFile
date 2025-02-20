@@ -1,0 +1,1 @@
+D:\WorkProject\UnityClient\Proto\protofiles\protofile\client*D:\WorkProject\UnityClient\Proto\gen_csharp.bat*D:\WorkProject\UnityClient\Unity\Assets\Hotfix\CodeGen\Proto*D:\WorkProject\UnityClient\Proto\out\cs

@@ -1,0 +1,10 @@
+D:\VSProject\ReplaceProtoFile\ReplaceProtoFile\bin\Debug\ReplaceProtoFile.exe.config
+D:\VSProject\ReplaceProtoFile\ReplaceProtoFile\bin\Debug\ReplaceProtoFile.exe
+D:\VSProject\ReplaceProtoFile\ReplaceProtoFile\bin\Debug\ReplaceProtoFile.pdb
+D:\VSProject\ReplaceProtoFile\ReplaceProtoFile\obj\Debug\ReplaceProtoFile.csproj.AssemblyReference.cache
+D:\VSProject\ReplaceProtoFile\ReplaceProtoFile\obj\Debug\ReplaceProtoFile.Form1.resources
+D:\VSProject\ReplaceProtoFile\ReplaceProtoFile\obj\Debug\ReplaceProtoFile.Properties.Resources.resources
+D:\VSProject\ReplaceProtoFile\ReplaceProtoFile\obj\Debug\ReplaceProtoFile.csproj.GenerateResource.cache
+D:\VSProject\ReplaceProtoFile\ReplaceProtoFile\obj\Debug\ReplaceProtoFile.csproj.CoreCompileInputs.cache
+D:\VSProject\ReplaceProtoFile\ReplaceProtoFile\obj\Debug\ReplaceProtoFile.exe
+D:\VSProject\ReplaceProtoFile\ReplaceProtoFile\obj\Debug\ReplaceProtoFile.pdb
