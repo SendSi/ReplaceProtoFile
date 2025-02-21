@@ -339,10 +339,9 @@ namespace ReplaceProtoFile
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnProtoc_Click(object sender, EventArgs e)
         {
             lblExcInfo.Text = "等待 3";
-
             // 设置源目录
             string directory = this.txtProtoPath.Text.Replace(@"\protofiles\protofile\client", ""); // @"D:\WorkProject\UnityClient\Proto";
             string pbToolPath = System.IO.Path.Combine(directory, "PbTool", "pbtool.exe");
@@ -384,6 +383,19 @@ namespace ReplaceProtoFile
             }
         }
 
+        private async void btnAll_Click(object sender, EventArgs e)
+        {
+            btnSVN_Click(null, null);
+            await Task.Delay(500);//隔0.5秒
+            btnReplace_Click(null, null);
+            await Task.Delay(1500);  //隔1.5秒
+            btnProtoc_Click(null, null);
+            await Task.Delay(2500);  //隔1.5秒
+            btnUnityReplaceFile_Click(null, null);
+            await Task.Delay(500);  //隔1.5秒
+            btnReplaceTxt_Click(null, null);
+        }
 
+   
     }
 }

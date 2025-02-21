@@ -21,7 +21,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 28,
+          "DockedWidth": 131,
           "SelectedChildIndex": -1,
           "Children": [
             {
@@ -34,24 +34,12 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:283709:0:{1a46fd64-28d5-0019-8eb3-17a02d419b53}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1a46fd64-28d5-0019-8eb3-17a02d419b53}"
             }
           ]
         },
         {
-          "DockedWidth": 372,
+          "DockedWidth": 269,
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -75,7 +63,7 @@
               "RelativeDocumentMoniker": "ReplaceProtoFile\\Form1.cs",
               "ToolTip": "D:\\VSProject\\ReplaceProtoFile\\ReplaceProtoFile\\Form1.cs",
               "RelativeToolTip": "ReplaceProtoFile\\Form1.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAADwvy4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAGwBAAAAAAAAAAAiwHsBAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T06:49:16.128Z",
               "EditorCaption": ""

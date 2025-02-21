@@ -39,9 +39,10 @@ namespace ReplaceProtoFile
             this.txtUnityProtoPath = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnSVN = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnProtoc = new System.Windows.Forms.Button();
             this.txtServerPath = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.btnAll = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnReplace
@@ -51,7 +52,7 @@ namespace ReplaceProtoFile
             this.btnReplace.Name = "btnReplace";
             this.btnReplace.Size = new System.Drawing.Size(142, 40);
             this.btnReplace.TabIndex = 0;
-            this.btnReplace.Text = "替换Pb";
+            this.btnReplace.Text = "Packet替换Pb";
             this.btnReplace.UseVisualStyleBackColor = true;
             this.btnReplace.Click += new System.EventHandler(this.btnReplace_Click);
             // 
@@ -74,12 +75,12 @@ namespace ReplaceProtoFile
             // 
             // btnUnityReplaceFile
             // 
-            this.btnUnityReplaceFile.Font = new System.Drawing.Font("宋体", 12F);
+            this.btnUnityReplaceFile.Font = new System.Drawing.Font("宋体", 10F);
             this.btnUnityReplaceFile.Location = new System.Drawing.Point(467, 168);
             this.btnUnityReplaceFile.Name = "btnUnityReplaceFile";
             this.btnUnityReplaceFile.Size = new System.Drawing.Size(142, 40);
             this.btnUnityReplaceFile.TabIndex = 5;
-            this.btnUnityReplaceFile.Text = "生成到Unity";
+            this.btnUnityReplaceFile.Text = "生成到Unity项目中";
             this.btnUnityReplaceFile.UseVisualStyleBackColor = true;
             this.btnUnityReplaceFile.Click += new System.EventHandler(this.btnUnityReplaceFile_Click);
             // 
@@ -90,7 +91,7 @@ namespace ReplaceProtoFile
             this.btnReplaceTxt.Name = "btnReplaceTxt";
             this.btnReplaceTxt.Size = new System.Drawing.Size(142, 40);
             this.btnReplaceTxt.TabIndex = 6;
-            this.btnReplaceTxt.Text = "Unity字符串替换";
+            this.btnReplaceTxt.Text = "Unity的get;set";
             this.btnReplaceTxt.UseVisualStyleBackColor = true;
             this.btnReplaceTxt.Click += new System.EventHandler(this.btnReplaceTxt_Click);
             // 
@@ -100,7 +101,7 @@ namespace ReplaceProtoFile
             this.lblExcInfo.AutoSize = true;
             this.lblExcInfo.Font = new System.Drawing.Font("宋体", 15F);
             this.lblExcInfo.ForeColor = System.Drawing.Color.Red;
-            this.lblExcInfo.Location = new System.Drawing.Point(15, 229);
+            this.lblExcInfo.Location = new System.Drawing.Point(98, 235);
             this.lblExcInfo.Name = "lblExcInfo";
             this.lblExcInfo.Size = new System.Drawing.Size(89, 20);
             this.lblExcInfo.TabIndex = 7;
@@ -135,16 +136,16 @@ namespace ReplaceProtoFile
             this.btnSVN.UseVisualStyleBackColor = true;
             this.btnSVN.Click += new System.EventHandler(this.btnSVN_Click);
             // 
-            // button1
+            // btnProtoc
             // 
-            this.button1.Font = new System.Drawing.Font("宋体", 12F);
-            this.button1.Location = new System.Drawing.Point(467, 116);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(142, 40);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Protoc工具";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnProtoc.Font = new System.Drawing.Font("宋体", 12F);
+            this.btnProtoc.Location = new System.Drawing.Point(467, 116);
+            this.btnProtoc.Name = "btnProtoc";
+            this.btnProtoc.Size = new System.Drawing.Size(142, 40);
+            this.btnProtoc.TabIndex = 14;
+            this.btnProtoc.Text = "执行Protoc工具";
+            this.btnProtoc.UseVisualStyleBackColor = true;
+            this.btnProtoc.Click += new System.EventHandler(this.btnProtoc_Click);
             // 
             // txtServerPath
             // 
@@ -163,14 +164,26 @@ namespace ReplaceProtoFile
             this.label4.TabIndex = 16;
             this.label4.Text = "后端Proto的Source目录";
             // 
+            // btnAll
+            // 
+            this.btnAll.Font = new System.Drawing.Font("宋体", 8F);
+            this.btnAll.Location = new System.Drawing.Point(21, 229);
+            this.btnAll.Name = "btnAll";
+            this.btnAll.Size = new System.Drawing.Size(61, 31);
+            this.btnAll.TabIndex = 17;
+            this.btnAll.Text = "无聊的人";
+            this.btnAll.UseVisualStyleBackColor = true;
+            this.btnAll.Click += new System.EventHandler(this.btnAll_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(621, 274);
+            this.Controls.Add(this.btnAll);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtServerPath);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnProtoc);
             this.Controls.Add(this.btnSVN);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtUnityProtoPath);
@@ -201,8 +214,9 @@ namespace ReplaceProtoFile
         private System.Windows.Forms.TextBox txtUnityProtoPath;
         private System.Windows.Forms.Label label3;
         private Button btnSVN;
-        private Button button1;
+        private Button btnProtoc;
         private TextBox txtServerPath;
         private Label label4;
+        private Button btnAll;
     }
 }

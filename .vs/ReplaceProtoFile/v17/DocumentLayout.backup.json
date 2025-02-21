@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\VSProject\\ReplaceProtoFile\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE9F07A6-CB4B-4E71-B22E-17C86473E3AB}|ReplaceProtoFile\\ReplaceProtoFile.csproj|D:\\VSProject\\ReplaceProtoFile\\replaceprotofile\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE9F07A6-CB4B-4E71-B22E-17C86473E3AB}|ReplaceProtoFile\\ReplaceProtoFile.csproj|solutionrelative:replaceprotofile\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BE9F07A6-CB4B-4E71-B22E-17C86473E3AB}|ReplaceProtoFile\\ReplaceProtoFile.csproj|d:\\vsproject\\replaceprotofile\\replaceprotofile\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE9F07A6-CB4B-4E71-B22E-17C86473E3AB}|ReplaceProtoFile\\ReplaceProtoFile.csproj|solutionrelative:replaceprotofile\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9F07A6-CB4B-4E71-B22E-17C86473E3AB}|ReplaceProtoFile\\ReplaceProtoFile.csproj|D:\\VSProject\\ReplaceProtoFile\\replaceprotofile\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE9F07A6-CB4B-4E71-B22E-17C86473E3AB}|ReplaceProtoFile\\ReplaceProtoFile.csproj|solutionrelative:replaceprotofile\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE9F07A6-CB4B-4E71-B22E-17C86473E3AB}|ReplaceProtoFile\\ReplaceProtoFile.csproj|D:\\VSProject\\ReplaceProtoFile\\replaceprotofile\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,7 +21,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 28,
+          "DockedWidth": 131,
           "SelectedChildIndex": -1,
           "Children": [
             {
@@ -34,25 +34,13 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:283709:0:{1a46fd64-28d5-0019-8eb3-17a02d419b53}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1a46fd64-28d5-0019-8eb3-17a02d419b53}"
             }
           ]
         },
         {
-          "DockedWidth": 372,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 269,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -69,20 +57,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\VSProject\\ReplaceProtoFile\\ReplaceProtoFile\\Form1.cs",
               "RelativeDocumentMoniker": "ReplaceProtoFile\\Form1.cs",
               "ToolTip": "D:\\VSProject\\ReplaceProtoFile\\ReplaceProtoFile\\Form1.cs",
               "RelativeToolTip": "ReplaceProtoFile\\Form1.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAAAH4AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAGwBAAAAAAAAAAAiwIkBAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T06:49:16.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\VSProject\\ReplaceProtoFile\\ReplaceProtoFile\\Form1.cs",
               "RelativeDocumentMoniker": "ReplaceProtoFile\\Form1.cs",
